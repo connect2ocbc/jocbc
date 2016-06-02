@@ -1,1 +1,1 @@
-{"mixinTypes":[],"builders":{"configs":{}},"runners":{"configs":{}},"type":"blank","attributes":{}}
+{"mixinTypes":[],"builders":{"configs":{}},"runners":{"configs":{},"default":"system:/java/standalone/simple/cli"},"type":"blank","attributes":{}}
