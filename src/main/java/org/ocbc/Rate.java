@@ -63,23 +63,23 @@ public class Rate implements OcbcObject {
         str.append("{");
         str.append(BANK_BUYING_RATE_TT);
         str.append(":");
-        str.append(this.bankBuyingRateTT);
+        str.append(bankBuyingRateTT);
         str.append(", ");
         str.append(BANK_SELLING_RATE);
         str.append(":");
-        str.append(this.bankSellingRate);
+        str.append(bankSellingRate);
         str.append(", ");
         str.append(FROM_CURRENCY);
         str.append(":");
-        str.append(this.fromCurrency);
+        str.append(fromCurrency);
         str.append(", ");
         str.append(TO_CURRENCY);
         str.append(":");
-        str.append(this.toCurrency);
+        str.append(toCurrency);
         str.append(", ");
         str.append(UNIT);
         str.append(":");
-        str.append(this.unit);
+        str.append(unit);
         str.append("}");
         return str.toString();
     }
