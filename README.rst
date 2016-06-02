@@ -12,7 +12,8 @@ You can get the source code from here
 
 .. code:: shell
 
-    $ git clone https://github.com/connect2ocbc/jocbc.git && cd pyocbc
+    $ git clone https://github.com/connect2ocbc/jocbc.git && cd jocbc
+    $ mvn clean package install
 
 ==========
 How to run

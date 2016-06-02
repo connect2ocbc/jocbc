@@ -7,7 +7,7 @@
     <packaging>jar</packaging>
     <groupId>org.jocbc</groupId>
     <artifactId>jocbc</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <name>OCBCApi</name>
     <url>https://telegram.me/connect2ocbc</url>
@@ -23,9 +23,10 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <httpcompontents.version>4.5.2</httpcompontents.version>
+        <httpcompontents.version>3.0.1</httpcompontents.version>
         <json.version>20160212</json.version>
         <jackson.version>2.7.4</jackson.version>
+        <commonslogging.version>1.1.1</commonslogging.version>
     </properties>
 
     <dependencies>
@@ -47,7 +48,12 @@
         <dependency>
             <groupId>commons-httpclient</groupId>
             <artifactId>commons-httpclient</artifactId>
-            <version>3.0.1</version>
+            <version>${httpcompontents.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>${commonslogging.version}</version>
         </dependency>
     </dependencies>
 </project>
