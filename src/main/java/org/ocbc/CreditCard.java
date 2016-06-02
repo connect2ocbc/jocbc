@@ -63,23 +63,23 @@ public class CreditCard implements OcbcObject {
         str.append("{");
         str.append(IMGAGE_URL);
         str.append(":");
-        str.append(this.imageURL);
+        str.append(imageURL);
         str.append(", ");
         str.append(KEYWORDS);
         str.append(":");
-        str.append(this.keywords);
+        str.append(keywords);
         str.append(", ");
         str.append(NAME);
         str.append(":");
-        str.append(this.name);
+        str.append(name);
         str.append(", ");
         str.append(PRODUCT_URL);
         str.append(":");
-        str.append(this.productURL);
+        str.append(productURL);
         str.append(", ");
         str.append(TAG_LINE);
         str.append(":");
-        str.append(this.tagLine);
+        str.append(tagLine);
         str.append("}");
         return str.toString();
     }

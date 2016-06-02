@@ -63,23 +63,23 @@ public class Branch implements OcbcObject {
         str.append("{");
         str.append(ADRRESS);
         str.append(":");
-        str.append(this.address);
+        str.append(address);
         str.append(", ");
         str.append(LANDMARK);
         str.append(":");
-        str.append(this.landmark);
+        str.append(landmark);
         str.append(", ");
         str.append(LATITUDE);
         str.append(":");
-        str.append(this.latitude);
+        str.append(latitude);
         str.append(", ");
         str.append(LONGITUDE);
         str.append(":");
-        str.append(this.longitude);
+        str.append(longitude);
         str.append(", ");
         str.append(POSTAL_CODE);
         str.append(":");
-        str.append(this.postalCode);
+        str.append(postalCode);
         str.append("}");
         return str.toString();
     }
